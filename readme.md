@@ -29,6 +29,7 @@ Sample Output (1.out):
 ```
 7
 ```
+## Solution
 
 
 ## Installation
@@ -42,7 +43,7 @@ git clone project_url
 
 ## Usage example
 
-Simply run the clone project in Android Studio to preview this single screen app
+Simply run the clone project in intellij to generate the output files
 
 
 
@@ -51,9 +52,10 @@ Simply run the clone project in Android Studio to preview this single screen app
 *(Thanks @GenerousContributorName!)
 * 0.1.0
     * The first proper release
-    * Add Google Map Marker to the Address
+    * Implement the merge interval algorithm
+    * Calculate the coverage time for each lifeguard absence scenario and get the maximum one
 * 0.0.1
-    * Intialize the Coffee Shop Landing Page with contact, address and hours information
+    * Initialize the skeleton project to read in the input files
 
 ## Meta
 
