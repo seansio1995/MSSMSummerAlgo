@@ -30,7 +30,12 @@ Sample Output (1.out):
 7
 ```
 ## Solution
-
+I borrow the idea of merge interval algorithm to solve this problem.
+For each scenario, I take out one lifeguard each time and make the rest a intervals group which would be merged later. 
+Suppose there are N lifeguards, we are going to have N - 1 lifeguard intervals to merge each time and repeat this N times.
+Since there might be some overlaps between the N - 1 lifeguards, we need to use merge intervals algorithm to merge all the intervals.
+After merging all of them, the total sum of time elapse between each interval is the total coverage time. After N times, we would have N
+total coverage time and we can therefore get the maximum total coverage time of these N scenarios which is our final answer.
 
 ## Installation
 
